@@ -1,0 +1,428 @@
+Ahls- App@..3Ap@..89  21-10-2026
+ext-sushant.nath@ahlstrom.com
+
+SAP System: 1004835
+DS4 100- App...91
+DS4 200- App...92
+Qs4 100- App...91
+RS4
+TS4
+PS4 100- App...91
+
+Welcome@123456789 
+
+
+Fiori launchpad:
+Ds4:
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/bc/ui2/flp?saml2=disabled&sap-client=200&sap-language=EN#Shell-home
+
+service now:
+https://ahlstrom.service-now.com/now/nav/ui/classic/params/target/sc_req_item.do%3Fsys_id%3D3c1cc4f483064f103d88de326daad3ff%26sysparm_stack%3D%26sysparm_view%3Dservice_request%26sysparm_view_forced%3Dtrue
+
+Azure:
+https://dev.azure.com/AhlstromCorporation/Stella%20-%20Global%20Template%20and%20Pilots/_workitems/edit/56116
+
+BAS - old
+https://am-dev.authentication.eu20.hana.ondemand.com/home
+
+DS4K927245- CHG0072907-P2S-U-64527-claims management status field_01
+
+
+
+https://dev.azure.com/AhlstromCorporation/Stella%20-%20Global%20Template%20and%20Pilots/_workitems/edit/64527
+
+ target:
+          destination: TS4-DEV
+          url: http://devs4ts4:443
+          client: '200'
+        app:
+          name: ZCUSTOMERCLAIMS
+          description: Customer claims management
+          package: ZPROD01
+          transport: TS4K901732
+
+ZP2S_CDS_BA_CLAIMHEAD
+
+On selection of display claim- the selection section is autofilled based on ZP2S_Claim_HEAD
+
+https://port8080-workspaces-ws-zuk33.eu20.applicationstudio.cloud.sap/sap/opu/odata/sap/ZP2S_CLAIM_PROCESS_SRV/ZP2S_Claim_HEADSet('0000000002') 
+
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/ZP2S_CLAIM_PROCESS_SRV/ZP2S_Claim_HEADSet?sap-client=200&$filter=(%20Claimno%20eq%20'0000001491') 
+
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/ZP2S_CLAIM_PROCESS_SRV/ZP2S_BP_Search_Help?sap-client=200&$filter=partner%20eq%20'AH22216668'&$select=mc_name1
+
+
+Item table- 
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/ZP2S_CLAIM_PROCESS_SRV/ZP2S_Claim_HEADSet
+ "$expand": "HeadtoitemNav" 
+
+
+CHG0072907-P2S-U-64527-claims management status field_01
+
+PID App:
+bsp- zewmpidoc
+DS4K927410- Work TR
+DS4K927201 - Cust TR
+DS4K927203
+Appid- com.sap.pidrap.zpidrap
+
+https://sapds4.hec.ahlstrom-munksjo.com/sap/opu/odata4/sap/zewm_cds_sb_pid_post_v4/srvd/sap/zewm_cds_sd_pid_post
+PIDHead
+       
+
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata4/sap/zewm_cds_sb_pid_post_v4/srvd/sap/zewm_cds_sd_pid_post/001/$metadata
+
+
+manifest line 58-66
+line 171
+
+   "press": "com.sap.pidrap.zpidrap.ext.controller.ObjectPage.onChangeCount",
+   
+   "press": "controllerAction:com.sap.pidrap.zpidrap.ext.controller.ObjectPage.onChangeCount",
+
+
+Mantain characteristic values:
+BSP - zmaintcharacter
+ZVC_CHAR_VALUE_CHECK_SRV/
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/ZVC_CHAR_VALUE_CHECK_SRV
+file- zmaintchar
+work- DS4K927719
+
+
+/////////////////Activate Fiori apps/////////////////////
+
+
+Stock Overview 	App ID F5757   SAP_TC_GLO_LOG_COMMON  - DONE
+Stock On posting date	App Id MB1B; correction - MB5B ;   SAP_TC_PRC_IM_BE_APPS  ; S4HC_STOCPOSTDATE_MB5B_9999  ; action - displayStockForPostingDate
+Slow/Non Moving stock	App id F2137    SAP_TC_PRC_IM_COMMON , S4HC_NONMOVINGSTOCK_F2137_9999  SEMAC-displaySlowOrNonMoving
+Material Document Overview	App Id F1077   SAP_TC_PRC_IM_COMMON , S4HC_MATERIALDOCUMENT_F1077_9999 , SEMAN - displayMaterialDocuments  SEMOBJ-displaystockoverview
+Supplier 360	App Id F0354    SAP_TC_CMD_COMMON    , S4HC_SUPPLIER360_F0354_9999 , SEMobj- supplier; semact- displayFactsheet ; no tile since its factsheet
+
+S4HC_S2P_WBS_EXPENSEDATA_9999
+default_ModuleName_AppDesc_default 
+
+
+DS4K927694 - cust TR
+S4HC_S2P_STOCK_OVERVIEW_F5757_9999
+
+
+
+
+
+////////////////////////////////////////
+
+
+order# 36304172
+
+
+importsupplierinvoice
+
+
+expense data app- all target mapping apps need to be given access.
+
+ui5projects one drive ahlstorm : 
+
+
+techm interview feedback: https://techm.ceipal.com/job_postings/feedback/?identifier=UXQzRElRT05kaWRHWXZwNTRMaTlVTnl2cWZxK05JSm1MRmQwbWlpODZ4az0=&intro_identity=UndqNEloaTN5UGt5UXFhUkRIMm45dz09&internal_review=YitLTUtyMlhzVXNNVktCSGNFYlZ3dz09&template_report_id=MWhoa1N6TDFwdmhyS1BKZlkzcnJqdz09
+
+
+
+maintain char value- ZVC_CDS_BA_COMM_GRD_GLBL_AGENT
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/ZVC_CHAR_VALUE_CHECK_SRV/ZVC_CDS_BA_COMM_GRD_GLBL_AGENT
+
+https://vhamoqs4ci.hec.ahlstrom-munksjo.com:44300/sap/bc/gui/sap/its;sap-fesr-only/webgui;~sysid=QS4;~service=3200
+
+Working:
+vhamoqs4ci.hec.ahlstrom-munksjo.com
+
+Failing:
+vhamoqs4ci.fra3.hec.ahlstrom-munksjo.com
+
+Resetting SAP PS4 passoerd tgrough service request - https://ahlstrom.service-now.com/enterprise?id=sc_cat_item&sys_id=1791572037b326008fde98a543990e75
+
+manage journal entry :
+
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/UI_JOURNALENTRY_MANAGE/C_ManageJournalEntryTP(CompanyCode='FI70',FiscalYear='2026',AccountingDocument='7100001320')?sap-client=200 HTTP/1.1
+
+ReversalReason
+ReversalReasonName
+ReverseDocument
+
+DS4K928323 - manage journal entry
+
+
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/bc/ui2/flp?saml2=disabled&sap-client=200&sap-language=EN#Shell-home
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/bc/ui2/flp?saml2=disabled&sap-client=200&sap-language=EN#CharacteristicValueCombination-zmaintain
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/bc/ui2/true
+/sap/bc/ui2/flp?saml2=disabled&sap-client=200&sap-language=EN#AccountingDocument-manageV2?sap-app-origin-hint=&sap-navigation-scope-filter=F0717A&/C_ManageJournalEntryTP(CompanyCode='FR80',FiscalYear='2026',AccountingDocument='6900000017')/?sap-iapp-state-C_ManageJournalEntryTP=AS4T9R2FAG37OJ6B7HG6A2MFLYSJ9SYOVEKFCH2Q&sap-iapp-state--history=TAS2JTCJWVROLX28XCUDOAFTNYRGDDQ3OB6HCD290&sap-iapp-state=AS9SHK3O6ALI04BLV6J8YK30DI6Z2LKNZ1IL6SQK
+
+
+claims app - ver2
+
+cust : DS4K928457-claims app ver-2, fiori config
+work : DS4K928459-claims app- ext for iframe ;sub tr- DS4K928460 - iframe config/url is mapped here
+BSP-ZCLAIMPROMAP
+comp-com.sap.claimprocessmap.claimprocessmap
+sap/bc/ui5_ui5/sap/ZCLAIMPROMAP
+semobj - zcusclaimnewsemobj
+action- change
+
+Link- /sap/bc/ui2/flp?saml2=disabled&sap-client=200&sap-language=EN#zcusclaimnewsemobj-change
+/sap/bc/ui5_ui5/sap/ZCLAIMPROMAP/index.html
+
+Claims app ver-2 ; odata service - https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/sap/ZO2C_SB_CLAIM_APP
+BSP:  ZCUSTOMERCLAIM2
+component : sap.com.customerclaim.zclaimrap
+sap/bc/ui5_ui5/sap/zcustomerclaim2
+
+
+package- ZO2C01_CLM_APP
+
+catalog - z_fiori_test
+ 
+work: DS4K928467; BSP app customer claim new
+cust : DS4K928457-claims app ver-2, fiori config
+semobj - zcusclaimnewsemobj
+ tile name: custome claim ver 2
+
+
+https://vhamods4ci.hec.ahlstrom-munksjo.com:44300/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZO2C_SB_CLAIM_APP_VAN',Version='0001')/$value/
+
+claims new app popup app:
+Item
+
+
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="cds_zo2c_sd_claim_app.cds_zo2c_sd_claim_app_Entities/Item">
+<Annotation Term="Capabilities.DeleteRestrictions">
+<Record>
+<PropertyValue Property="Deletable" Path="Delete_mc"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.FilterRestrictions">
+<Record>
+<PropertyValue Property="NonFilterableProperties">
+<Collection>
+<PropertyPath>Delete_mc</PropertyPath>
+<PropertyPath>Update_mc</PropertyPath>
+<PropertyPath>to_clitmprice_oc</PropertyPath>
+<PropertyPath>to_clsbitm_oc</PropertyPath>
+</Collection>
+</PropertyValue>
+</Record>
+
+
+////////////////////////////////
+
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="cds_zo2c_sd_claim_app.cds_zo2c_sd_claim_app_Entities/HU_VH">
+<Annotation Term="Capabilities.DeleteRestrictions">
+<Record>
+<PropertyValue Property="Deletable" Bool="false"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.InsertRestrictions">
+<Record>
+<PropertyValue Property="Insertable" Bool="false"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.UpdateRestrictions">
+<Record>
+<PropertyValue Property="Updatable" Bool="false"/>
+</Record>
+</Annotation>
+</Annotations>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<edmx:Edmx
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"
+    Version="4.0">
+
+    <edmx:Reference
+        Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include
+            Namespace="com.sap.vocabularies.Common.v1"
+            Alias="Common"/>
+    </edmx:Reference>
+
+    <edmx:Reference
+        Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include
+            Namespace="com.sap.vocabularies.UI.v1"
+            Alias="UI"/>
+    </edmx:Reference>
+
+    <edmx:Reference
+        Uri="/sap/opu/odata/sap/ZO2C_SB_CLAIM_APP/$metadata">
+        <edmx:Include
+            Namespace="cds_zo2c_sd_claim_app"/>
+    </edmx:Reference>
+
+    <edmx:DataServices>
+
+        <Schema
+            xmlns="http://docs.oasis-open.org/odata/ns/edm"
+            Namespace="local">
+
+            <Annotations
+                Target="cds_zo2c_sd_claim_app.HeaderType">
+
+                <Annotation Term="UI.Facets">
+                    <Collection>
+ <!-- Claim Items -->
+                    <Record Type="UI.ReferenceFacet">
+    <PropertyValue Property="Label" String="Claim Items"/>
+    <PropertyValue Property="ID" String="ClaimItem1"/>
+    <PropertyValue
+        Property="Target"
+        AnnotationPath="to_clitm/@UI.LineItem"/>
+</Record>
+
+                        <!-- Claim Header -->
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue
+                                Property="Label"
+                                String="Claim Header"/>
+                            <PropertyValue
+                                Property="ID"
+                                String="ClaimHeader"/>
+                            <PropertyValue
+                                Property="Target"
+                                AnnotationPath="@UI.Identification"/>
+                        </Record>
+
+                        <!-- Return Orders -->
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue
+                                Property="Label"
+                                String="Return Orders"/>
+                            <PropertyValue
+                                Property="ID"
+                                String="ReturnOrder"/>
+                            <PropertyValue
+                                Property="Target"
+                                AnnotationPath="to_rtord/@UI.LineItem"/>
+                        </Record>
+
+                        <!-- Resolutions -->
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue
+                                Property="Label"
+                                String="Resolutions"/>
+                            <PropertyValue
+                                Property="ID"
+                                String="Resolution"/>
+                            <PropertyValue
+                                Property="Target"
+                                AnnotationPath="to_resol/@UI.LineItem"/>
+                        </Record>
+
+                        <!-- Invoiced Parties -->
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue
+                                Property="Label"
+                                String="Invoiced Parties"/>
+                            <PropertyValue
+                                Property="ID"
+                                String="Invoiced_Parties"/>
+                            <PropertyValue
+                                Property="Target"
+                                AnnotationPath="to_clinpar/@UI.LineItem"/>
+                        </Record>
+
+                        <!-- NEW XYZ -->
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue
+                                Property="Label"
+                                String="XYZ"/>
+                            <PropertyValue
+                                Property="ID"
+                                String="XYZSection"/>
+                            <PropertyValue
+                                Property="Target"
+                                AnnotationPath="@UI.FieldGroup#XYZ"/>
+                        </Record>
+
+                    </Collection>
+                </Annotation>
+
+                <!-- XYZ content -->
+                <Annotation
+                    Term="UI.FieldGroup"
+                    Qualifier="XYZ">
+
+                    <Record>
+
+                        <PropertyValue
+                            Property="Label"
+                            String="XYZ"/>
+
+                        <PropertyValue Property="Data">
+                            <Collection>
+
+                                <Record Type="UI.DataField">
+                                    <PropertyValue
+                                        Property="Label"
+                                        String="Claim Number"/>
+                                    <PropertyValue
+                                        Property="Value"
+                                        Path="Claimno"/>
+                                </Record>
+
+                                <Record Type="UI.DataField">
+                                    <PropertyValue
+                                        Property="Label"
+                                        String="Customer Reference"/>
+                                    <PropertyValue
+                                        Property="Value"
+                                        Path="CusRef"/>
+                                </Record>
+
+                                <Record Type="UI.DataField">
+                                    <PropertyValue
+                                        Property="Label"
+                                        String="Claim Type"/>
+                                    <PropertyValue
+                                        Property="Value"
+                                        Path="ClaimTy"/>
+                                </Record>
+
+                                <Record Type="UI.DataField">
+                                    <PropertyValue
+                                        Property="Label"
+                                        String="Plant"/>
+                                    <PropertyValue
+                                        Property="Value"
+                                        Path="Werks"/>
+                                </Record>
+
+                                <Record Type="UI.DataField">
+                                    <PropertyValue
+                                        Property="Label"
+                                        String="Partner"/>
+                                    <PropertyValue
+                                        Property="Value"
+                                        Path="Partner"/>
+                                </Record>
+
+                            </Collection>
+                        </PropertyValue>
+
+                    </Record>
+                </Annotation>
+
+            </Annotations>
+
+        </Schema>
+
+    </edmx:DataServices>
+
+</edmx:Edmx>
+
+
+olive- 46762823
+
+https://app.schoolcanvas.com/Admission/PrintRegistration?admMasId=173671&InstId=2000&FormId=1055&LogId=146568
+https://app.schoolcanvas.com/Admission/AcknowledgementSlip?admMasId=173671&InstId=2000&FormId=1055&LogId=146568
